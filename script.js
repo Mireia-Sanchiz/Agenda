@@ -16,4 +16,4 @@ llista.appendChild(li);
 });
 document.body.appendChild(llista);
 });
-
+//Afageixo un comentari per comprovar que ho afageix la Marta
