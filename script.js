@@ -1,5 +1,6 @@
 // script.js
 console.log("Agenda Web");
+
 document.querySelector("form").addEventListener("submit", e => {
 e.preventDefault();
 const input = document.querySelector("#nom");
@@ -16,7 +17,6 @@ li.textContent = nom;
 llista.appendChild(li);
 });
 document.body.appendChild(llista);
-
 });
 //Afageixo un comentari per comprovar que ho afageix la Marta
 
